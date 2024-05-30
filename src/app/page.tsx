@@ -1,7 +1,6 @@
 "use client";
 
 import { Check } from "../components/checkbox";
-import Head from "next/head";
 import { useState } from "react";
 type Props = {
   children: React.ReactNode;
@@ -35,10 +34,6 @@ export default function Home() {
   };
   return (
     <>
-      <Head>
-        <meta name="robots" content="noindex, nofollow" />
-        <title>ランドバリー - 新たな場所での体験が待っています</title>
-      </Head>
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div className="w-4/5">
           {step === 1 && (
