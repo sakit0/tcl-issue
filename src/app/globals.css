@@ -18,12 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1500835556837-99ac94a94552?q=80&w=3987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; /* 画像を全体に広げる */
+  background-repeat: no-repeat; /* 画像の繰り返しを防ぐ */
+  background-position: center; /* 画像を中央に配置 */
+  background-attachment: fixed; /* スクロール時に背景を固定 */
 }
 
 @layer utilities {
