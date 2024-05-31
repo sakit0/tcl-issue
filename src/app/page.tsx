@@ -39,13 +39,13 @@ export default function Home() {
           {step === 1 && (
             <>
               <ContentBox>
-                <h2 className=" text-2xl font-semibold text-center text-gray-800 mb-2">
+                <h2 className=" text-4xl font-semibold text-left text-gray-800">
                   ランドバリー
                 </h2>
-                <p className="mt-4 text-lg">
+                <p className="mt-2 text-lg">
                   一歩を踏み出すあなたへ。新たな場所での体験が待っています。
                 </p>
-                <h2 className="text-2xl font-semibold mb-1 mt-4">
+                <h2 className="text-2xl font-semibold mb-1 mt-8">
                   こんな方におすすめ
                 </h2>
                 <ul className="list-disc list-inside">
@@ -188,7 +188,9 @@ export default function Home() {
                   5. 希望のツアー提供者
                 </h2>
                 <p className="text-lg text-gray-700 text-left mb-4">
-                  あなたの求める環境を参考にツアーを提案します。
+                  ツアーの提案者を選択してください。
+                  <br />
+                  提案者によって、提案されるツアーが異なります。
                 </p>
                 <div className="flex gap-3  flex-wrap">
                   <Check>地元の人</Check>
