@@ -2,6 +2,9 @@
 
 import { Check } from "../components/checkbox";
 import { useState } from "react";
+import Image from "next/image";
+import Icon from "/public/undraw_traveling_yhxq.svg";
+
 type Props = {
   children: React.ReactNode;
 };
@@ -224,6 +227,13 @@ export default function Home() {
                   <br />
                   素晴らしい旅になりますように！
                 </p>
+                <Image
+                  src={Icon}
+                  alt="飛行機アイコン"
+                  width={250}
+                  height={250}
+                  className="mt-4"
+                />
               </ContentBox>
             </div>
           )}
